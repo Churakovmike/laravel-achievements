@@ -1,0 +1,41 @@
+{
+    "name": "churakovmike/laravel-achievements",
+    "type": "library",
+    "description": "Powerful achievement system for Laravel",
+    "keywords": [
+        "laravel",
+        "laravel achievements",
+        "achievement system"
+    ],
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Churakov Mike"
+        }
+    ],
+    "require": {
+        "illuminate/console": "^5.5|^6|^7",
+        "illuminate/contracts": "^5.5|^6|^7",
+        "illuminate/database": "^5.5|^6|^7",
+        "illuminate/http": "^5.5|^6|^7",
+        "illuminate/pagination": "^5.5|^6|^7",
+        "illuminate/support": "^5.5|^6|^7",
+        "illuminate/view": "^5.5|^6|^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChurakovMike\\Achievement\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ChurakovMike\\Achievement\\AchievementServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

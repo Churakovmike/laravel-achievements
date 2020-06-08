@@ -5,7 +5,7 @@ namespace ChurakovMike\Achievement;
 use Illuminate\Support\ServiceProvider;
 
 /**
- * Class AchievementServiceProvider
+ * Class AchievementServiceProvider.
  * @package ChurakovMike\Achievement
  */
 class AchievementServiceProvider extends ServiceProvider
